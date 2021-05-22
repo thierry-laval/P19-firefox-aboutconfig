@@ -9,7 +9,7 @@
 
 ***
 
-## 📎 Projet 19 - Parametrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
+## 📎 Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
 
 ![left 100%](firefox.png?raw=true)
 _`Début du projet le 20/05/2021`_
@@ -111,7 +111,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 
 ### Performances
 
-**Vérifier l'impact réel de la modification de ces paramètres, c'est à titre informatif mais si vous ne savez pas ce que vous faites ne les modifiez pas.**
+**Vérifier l'impact réel de la modification de ces paramètres, si vous ne savez pas ce que vous faites ne les modifiez pas.**
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
