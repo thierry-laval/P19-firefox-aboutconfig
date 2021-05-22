@@ -2,7 +2,7 @@
 /*
 Auteur
 Thierry LAVAL contact@thierrylaval.dev
-Projet 19 - Parametrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
+Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
 Début du projet le 20/05/2021
 */
 
