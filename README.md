@@ -12,6 +12,7 @@
 ## 📎 Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
 
 ![left 100%](firefox.png?raw=true)
+
 _`Début du projet le 20/05/2021`_
 
 Liste des paramètres à modifier dans le menu de Firefox :  about:config
