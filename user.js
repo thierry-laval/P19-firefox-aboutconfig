@@ -1,15 +1,9 @@
-// Introduction
-
+// Liste des paramètres à modifier dans le menu de Firefox :  about:config
 /*
-
-Voici ma liste des paramètres à modifier dans le menu about:config de Firefox.
-J'ai à l'origine créé cette liste pour me souvenir de quoi modifier lorsque je dois réinstaller Firefox.
-Certaines personnes ayant été intéressées je l'ai diffusée par la suite sous format d'un fichier texte.
-Ce mode de diffusion n'étant absolument pas pratique j'ai décidé de mettre cette liste sur GitHub.
-Le but est aussi de recevoir des contributions et de discuter de ces paramètres.
-
-Donc n'hésitez pas à contribuer, en ouvrant par exemple une issue.
-
+Auteur
+Thierry LAVAL contact@thierrylaval.dev
+Projet 19 - Parametrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
+Début du projet le 20/05/2021
 */
 
 // Paramètres
@@ -35,7 +29,7 @@ user_pref("network.http.referer.spoofSource", true); // Envoie comme referer le 
 
 user_pref("network.dns.disablePrefetch", true); // Désactive le préchargement DNS des liens, si vous avez confiance en votre serveur DNS ne désactivez pas cette option utile à l'amélioration des performances.
 user_pref("network.prefetch-next", false); // Désactive le préchargement des pages.
-user_pref("browser.urlbar.speculativeConnect.enabled", false); // Désactive le préchargement dans la barre « intelligente » de Firefox.
+user_pref("browser.urlbar.speculativeConnect.enabled", false); // Désactive le préchargement dans la barre "intelligente" de Firefox.
 user_pref("network.http.speculative-parallel-limit", 0); // Désactive le préchargement.
 
 // Désactiver la télémétrie
@@ -99,7 +93,7 @@ user_pref("dom.push.connection.enabled", false);
 user_pref("dom.push.enabled", false);
 user_pref("dom.push.serverURL", "");
 
-// Autres 
+// Autres
 
 user_pref("security.OCSP.enabled", 0); // Désactive l'OCSP.
 user_pref("browser.cache.offline.enable", false); // Désactive le cache hors-ligne, c'est pas terrible d'autoriser les sites à enregistrer tout et n'importe quoi sur votre ordi.
@@ -117,9 +111,9 @@ user_pref("network.captive-portal-service.enabled", false); // Désactive la rec
 user_pref("captivedetect.canonicalURL", ""); // Désactive la recherche de portails captifs.
 user_pref("layout.css.visited_links_enabled", false); // Trop long à expliquer.
 user_pref("device.sensors.enabled", false);
-user_pref("browser.newtabpage.activity-stream.feeds.snippets", false); // Désactive l'affichage des snippets, ou « brèves » en Français, de Mozilla. Firefox contacte les serveurs de Mozilla pour les afficher.
+user_pref("browser.newtabpage.activity-stream.feeds.snippets", false); // Désactive l'affichage des snippets, ou "brèves" en Français, de Mozilla. Firefox contacte les serveurs de Mozilla pour les afficher.
 user_pref("privacy.firstparty.isolate", true); // Isole chacun de vos onglets.
-user_pref("network.IDN_show_punycode", true); // Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont encodés avec le code « punycode ». Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
+user_pref("network.IDN_show_punycode", true); // Certains liens contiennent des caractères unicodes. Ceci donne de plus grandes possibilités pour l'hameçonnage. Ces caractères unicode sont encodés avec le code "punycode". Activer ce paramètres force Firefox à afficher le punycode plutôt que le caractère unicode.
 user_pref("media.peerconnection.enabled", false); // Désactive WebRTC qui peut poser des problèmes de sécurité et de vie privée, comme révéler votre adresse IP.
 user_pref("signon.autofillForms", false); //Désactive le remplissage automatique des identifiants.
 user_pref("network.security.esni.enabled", true); //Active la prise en charge de l'esni.
@@ -128,7 +122,7 @@ user_pref("network.security.esni.enabled", true); //Active la prise en charge de
 
 /*
 
-Je dois mener des investigations plus poussées sur l'impact réel de la modification de ces paramètres ; je le laisses dans ce guide à titre informatif mais si vous ne savez pas ce que vous faites ne les modifiez pas. Merci. Bisous.
+A vérifier et si vous ne savez pas ce que vous faites ne les modifiez pas.
 
 */
 
@@ -183,22 +177,16 @@ http://kb.mozillazine.org/
 
 https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-contre-le-pistage/
 
-Merci à eux !
-
 */
 
 /*
 
-An user.js made by Yann Jaulin for kaliangel.
+An user.js made by Thierry Laval.
 
 GitHub :
-
-https://github.com/kaliangel/
-https://github.com/YannJaulin/
+https://github.com/thierry-laval
 
 Official repositorie :
-
 https://github.com/kaliangel/firefox-about-config/
-
 
 */
