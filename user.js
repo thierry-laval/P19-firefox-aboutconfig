@@ -1,9 +1,13 @@
-// Liste des paramètres à modifier dans le menu de Firefox :  about:config
+// À propos
+
 /*
-Auteur
+
+Un fichier de configuration pour Mozilla Firefox, proposé par
 Thierry LAVAL contact@thierrylaval.dev
 Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
 Début du projet le 20/05/2021
+Ce fichier est basé sur les paramètres de PrivacyTools qui vise à améliorer la vie privée et la confidentialité sur Internet.
+
 */
 
 // Paramètres
@@ -182,11 +186,6 @@ https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-co
 /*
 
 An user.js made by Thierry Laval.
-
-GitHub :
-https://github.com/thierry-laval
-
-Official repositorie :
-https://github.com/kaliangel/firefox-about-config/
+GitHub : https://github.com/thierry-laval
 
 */
