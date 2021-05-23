@@ -1,4 +1,4 @@
-﻿# ![left 100%](https://raw.githubusercontent.com/thierry-laval/archives/master/images/logo-portfolio.png)
+# ![left 100%](https://raw.githubusercontent.com/thierry-laval/archives/master/images/logo-portfolio.png)
 
 ## Auteur
 
@@ -35,6 +35,7 @@ Attention le profil actuel va être supprimé, n'oubliez pas de sauvegarder vos 
 ***
 
 ### Paramètrage manuel
+
 
 #### Vie privée et sécurité
 
