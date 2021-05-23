@@ -19,7 +19,7 @@ Liste des paramètres à modifier dans le menu de Firefox :  about:config
 
 ***
 
-#### Paramètrage automatique
+### Paramètrage automatique
 
 Le fichier `user.js`, fournis dans l'archive, est un profil pour Mozilla Firefox basé sur les paramètres de PrivacyTools afin d'améliorer la vie privée et la confidentialité sur Internet.
 
@@ -34,7 +34,8 @@ Attention le profil actuel va être supprimé, n'oubliez pas de sauvegarder vos 
 
 ***
 
-#### Paramètrage manuel
+### Paramètrage manuel
+
 
 #### Vie privée et sécurité
 
