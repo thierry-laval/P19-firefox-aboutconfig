@@ -9,7 +9,7 @@
 
 ***
 
-## 📎 Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
+### 📎 Projet 19 - Paramètrage de [Firefox développeur](https://www.mozilla.org/fr/firefox/developer/)
 
 ![left 100%](firefox.png?raw=true)
 
@@ -19,11 +19,26 @@ Liste des paramètres à modifier dans le menu de Firefox :  about:config
 
 ***
 
-## Paramètres
+#### Paramètrage automatique
 
-### Vie privée et sécurité
+Le fichier `user.js`, fournis dans l'archive, est un profil pour Mozilla Firefox basé sur les paramètres de PrivacyTools afin d'améliorer la vie privée et la confidentialité sur Internet.
 
-#### Désactiver le Safe Browsing
+Attention le profil actuel va être supprimé, n'oubliez pas de sauvegarder vos données, telles que les marque-pages, mots de passe, etc.
+
+- Ouvrez Firefox et tapez about:profiles dans la barre d'adresse.
+- Une fois sur la page, cliquez sur Créer un nouveau profil.
+- Dès que le nouveau profil est créé, cliquez sur Ouvrir le répertoire dans Répertoire racine du nouveau profil.
+- Déplacez le fichier user.js dans ce répertoire et cliquez sur Lancer le profil dans un nouveau navigateur.
+- Fermez l'ancien navigateur et le répertoire, tapez about:profiles et une fois sur la page, cliquez sur Supprimer.
+- Ça y est, votre profil est configuré et vous êtes mieux protégé sur Internet !
+
+***
+
+#### Paramètrage manuel
+
+#### Vie privée et sécurité
+
+##### Désactiver le Safe Browsing
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
@@ -36,13 +51,13 @@ Liste des paramètres à modifier dans le menu de Firefox :  about:config
 | `browser.safebrowsing.provider.google4.dataSharingURL` | **blanc** | Désactive le partage de données. |
 | `browser.safebrowsing.provider.google4.gethashURL` | **blanc** | Désactive le partage de données. |
 
-#### Gestion du referer
+##### Gestion du referer
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
 | `network.http.referer.spoofSource`           | **true** | Envoie comme referer le site que vous visitez, si vous visitez mozilla.org, Firefox enverra comme referer mozilla.org. |
 
-#### Désactiver le préchargement
+##### Désactiver le préchargement
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
@@ -51,7 +66,7 @@ Liste des paramètres à modifier dans le menu de Firefox :  about:config
 | `browser.urlbar.speculativeConnect.enabled` | **false** | Désactive le préchargement dans la barre "intelligente" de Firefox. |
 | `network.http.speculative-parallel-limit`   | **0**     | Désactive le préchargement. |
 
-#### Désactiver la télémétrie
+##### Désactiver la télémétrie
 
 Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez tout à `false`.
 
@@ -65,7 +80,7 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 | `app.normandy.api_url`                                   | **blanc** | Désactive la télémétrie. |
 | `beacon.enabled`                                         | **false** | Désactive la télémétrie. |
 
-#### Désactiver la géolocalisation
+##### Désactiver la géolocalisation
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
@@ -73,7 +88,7 @@ Tapez `telemetry` dans la barre de recherche, supprimez tous les liens et passez
 | `geo.wifi.uri`             | **blanc** | Désactive la géolocalisation via énumération des points Wi-Fi. |
 | `geo.provider.network.url` | **blanc** | Désactive la géolocalisation. |
 
-#### Désactiver les notifications push
+##### Désactiver les notifications push
 
 Les notifications push permettent aux sites de vous envoyer des notifications même s'ils ne sont pas ouverts, si vous les y autorisez. Pour ce faire Mozilla utilise ses serveurs. Cela peut poser des problèmes de confidentialité.
 
@@ -110,9 +125,9 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 | `signon.autofillForms` | **false** | Désactive le remplissage automatique des identifiants. |
 | `network.security.esni.enabled` | **true** | Active la prise en charge de l'[ESNI](https://lafibre.info/cryptographie/encrypted-sni/). |
 
-### Performances
+#### Performances
 
-**Vérifier l'impact réel de la modification de ces paramètres, si vous ne savez pas ce que vous faites ne les modifiez pas.**
+***Vérifier l'impact réel de la modification de ces paramètres, si vous ne savez pas ce que vous faites ne les modifiez pas.***
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
@@ -126,7 +141,7 @@ Les notifications push permettent aux sites de vous envoyer des notifications m�
 | `network.dnsCacheExpirationGracePeriod` | **43200** | Mettre la même valeur que pour `network.dnsCacheExpiration`. |
 | `browser.sessionstore.interval` | **60000** | Firefox sauvegarde toutes les 15 secondes vos onglets et leurs données. Ça lui permet en cas de plantage de restaurer votre session. Ici on fait passer de une sauvegarde toutes les 15 secondes (15 000 ms) à une sauvegarde toutes les 60 secondes (60 000 ms). Une sauvegarde par minute c'est largement suffisant et ça permet de diminuer les accès au disque fait par Firefox. |
 
-### Pratique
+#### Pratique
 
 | Attribut | Valeur | Description |
 | :-: | :-: | --- |
