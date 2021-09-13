@@ -188,7 +188,7 @@ https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-co
 
 ### Utilisé dans ce projet
 
-| Languages       | et Applications        |
+| Langages       | et Applications        |
 | :-------------: |:--------------:        |
 | Firefox développeur | Visual Studio Code |
 | Git/GitHub          |                    |
