@@ -15,7 +15,7 @@
 
 _`Début du projet le 20/05/2021`_
 
-Liste des paramètres à modifier dans le menu de Firefox :  `about:config`
+Liste des paramètres à modifier dans le menu de Firefox :  `about:config`  
 ATTENTION à faire des tests après modifs et ne pas hésiter à réinitialiser...
 
 ***
