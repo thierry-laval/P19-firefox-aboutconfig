@@ -2,20 +2,23 @@
 
 ## Auteur
 
-👤**Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<contact@thierrylaval.dev>)
+👤 &nbsp; **Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<contact@thierrylaval.dev>)
 
 * Github: [@Thierry Laval](https://github.com/thierry-laval)
 * LinkedIn: [@Thierry Laval](https://www.linkedin.com/in/thierry-laval)
+* Visitez ==> 🏠 [Site Web](https://thierrylaval.dev)
 
 ***
 
-### 📎 Projet 19 - Paramètrage de [Firefox Développeur Edition](https://www.mozilla.org/fr/firefox/developer/)
+### 📎 Projet 19 - Paramètrage de [Firefox Développeur Édition](https://www.mozilla.org/fr/firefox/developer/)
 
 ![left 100%](firefox.png?raw=true)
 
 _`Début du projet le 20/05/2021`_
 
-Liste des paramètres à modifier dans le menu de Firefox :  `about:config`
+***
+
+Le projet 19 consiste à Lister les paramètres à modifier dans le menu de Firefox :  `about:config`
 ATTENTION à faire des tests après modifs et ne pas hésiter à réinitialiser...
 
 ***
@@ -26,12 +29,12 @@ Le fichier `user.js`, fournis dans l'archive, est un profil pour Mozilla Firefox
 
 Attention le profil actuel va être supprimé, n'oubliez pas de sauvegarder vos données, telles que les marque-pages, mots de passe, etc.
 
-- Ouvrez Firefox et tapez about:profiles dans la barre d'adresse.
-- Une fois sur la page, cliquez sur Créer un nouveau profil.
-- Dès que le nouveau profil est créé, cliquez sur Ouvrir le répertoire dans Répertoire racine du nouveau profil.
-- Déplacez le fichier user.js dans ce répertoire et cliquez sur Lancer le profil dans un nouveau navigateur.
-- Fermez l'ancien navigateur et le répertoire, tapez about:profiles et une fois sur la page, cliquez sur Supprimer.
-- Ça y est, votre profil est configuré et vous êtes mieux protégé sur Internet !
+* Ouvrez Firefox et tapez about:profiles dans la barre d'adresse.
+* Une fois sur la page, cliquez sur Créer un nouveau profil.
+* Dès que le nouveau profil est créé, cliquez sur Ouvrir le répertoire dans Répertoire racine du nouveau profil.
+* Déplacez le fichier user.js dans ce répertoire et cliquez sur Lancer le profil dans un nouveau navigateur.
+* Fermez l'ancien navigateur et le répertoire, tapez about:profiles et une fois sur la page, cliquez sur Supprimer.
+* Ça y est, votre profil est configuré et vous êtes mieux protégé sur Internet !
 
 ***
 
@@ -186,7 +189,7 @@ https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-co
 
 ***
 
-### Utilisé dans ce projet
+#### 📦  &nbsp; Utilisé dans ce projet
 
 | Langages       | et Applications        |
 | :-------------: |:--------------:        |
@@ -199,4 +202,26 @@ https://www.malekal.com/mozilla-firefox-les-reglages-ultimes-anti-tracking-et-co
 
 ***
 
-&hearts;&nbsp;&nbsp;&nbsp;&nbsp;Love Markdown
+#### 📝 &nbsp; License
+
+Copyright © 2020 [Thierry Laval](https://thierrylaval.dev)
+
+Ce projet est sous licence [MIT](LICENCE).
+
+[Voir mon travail](https://github.com/thierry-laval)
+
+[Créer un bon template](https://github.com/thierry-laval/P22-template-pour-un-readme)
+
+***
+
+### &hearts;&nbsp;&nbsp;&nbsp;&nbsp;Love Markdown
+
+Donnez une ⭐️ &nbsp; si ce projet vous a plu !
+
+<span style="font-family:Papyrus; font-size:4em;">FAN DE GITHUB !</span>
+
+<!--[This is an image](https://myoctocat.com/assets/images/base-octocat.svg)-->
+
+<a href="url"><img src="https://myoctocat.com/assets/images/base-octocat.svg" height="300"></a>
+
+**[⬆ Retour en haut](#auteur)** <br>
